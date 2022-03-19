@@ -4,8 +4,8 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
-@ConfigurationProperties(prefix = "sms-config")
-public class SmsProperties {
+@ConfigurationProperties(prefix = "nextop.operatelog")
+public class NextopOperateLogProperties {
     private String appid;
     private String accountSid;
     private String authToken;
